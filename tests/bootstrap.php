@@ -2,7 +2,7 @@
 /**
  * PHPUnit bootstrap file
  *
- * @package Matomo_Wp
+ * @package By_Robots\Matomo_WP
  */
 
 $_tests_dir = getenv( 'WP_TESTS_DIR' );
@@ -25,6 +25,7 @@ require_once $_tests_dir . '/includes/functions.php';
 function _manually_load_plugin() {
 	require dirname( dirname( __FILE__ ) ) . '/matomo-wp.php';
 }
+
 tests_add_filter( 'muplugins_loaded', '_manually_load_plugin' );
 
 // Start up the WP testing environment.

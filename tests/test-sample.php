@@ -2,13 +2,15 @@
 /**
  * Class SampleTest
  *
- * @package Matomo_Wp
+ * @package By_Robots\Matomo_WP
  */
+
+namespace By_Robots\Matomo_WP\Tests;
 
 /**
  * Sample test case.
  */
-class SampleTest extends WP_UnitTestCase {
+class SampleTest extends \WP_UnitTestCase {
 
 	/**
 	 * A single example test.
