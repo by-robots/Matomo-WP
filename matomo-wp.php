@@ -13,8 +13,8 @@
  */
 
 // No direct access.
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
+if (! defined('ABSPATH') ) {
+    exit;
 }
 
 /**
@@ -22,8 +22,9 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @return \By_Robots\Matomo_WP\Matomo_WP
  */
-function matomo_wp() {
-	//
+function matomo_wp()
+{
+    //
 }
 
 // Global for backwards compatibility.
