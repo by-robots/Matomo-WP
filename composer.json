@@ -1,0 +1,16 @@
+{
+	"name": "by-robots/matomo-wp",
+	"description": "Matomo + WordPress",
+	"type": "wordpress-plugin",
+	"license": "gpl-3.0",
+	"authors": [
+		{
+			"name": "Dan Gates",
+			"email": "skynet@by-robots.com"
+		}
+	],
+	"require": {},
+	"require-dev": {
+		"phpunit/phpunit": "^6.1"
+	}
+}
