@@ -6,3 +6,11 @@ Matomo + WordPress
 ## Tests
 To run tests install dependencies with `composer install` and then run
 `./vendor/bin/phpunit`.
+
+## Code Style
+### Test
+To test the code style, install dev dependencies with `composer` and run
+`./vendor/bin/phpcs --standard=WordPress`.
+
+### Automatically Correct
+To automatically correct errors run `./vendor/bin/phpcbf --standard=WordPress`.

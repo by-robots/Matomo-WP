@@ -1,15 +1,18 @@
 <?php
 /**
+ * Add the plugin to WordPress and gets the ball rolling.
+ *
+ * PHP version 5.6+
+ *
  * Plugin Name: Matomo WP
  * Plugin URI: https://by-robots.com
  * Description: Add Matomo analytics to your WordPress website.
  * Version: X.X.X
- * Requires PHP: 7.0
  * Author: By Robots
  * Author URI: https://by-robots.com
- * License: MIT
+ * License: GNU GPLv3
  *
- * @package By_Robots\Matomo_WP
+ * @package  By_Robots\Matomo_WP
  */
 
 // No direct access.
@@ -23,7 +26,8 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @return \By_Robots\Matomo_WP\Matomo_WP
  */
 function matomo_wp() {
-	//
+	require_once __DIR__ . '/autoloader.php';
+	return new \By_Robots\Matomo_WP\Matomo_WP();
 }
 
 // Global for backwards compatibility.
