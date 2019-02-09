@@ -9,7 +9,8 @@ To run tests install dependencies with `composer install` and then run
 
 ## Code Style
 ### Test
-To test the code style, install dev dependencies with `composer` and run `./vendor/bin/phpcs`.
+To test the code style, install dev dependencies with `composer` and run
+`./vendor/bin/phpcs --standard=WordPress`.
 
 ### Automatically Correct
-To automatically correct errors run `./vendor/bin/phpcbf`.
+To automatically correct errors run `./vendor/bin/phpcbf --standard=WordPress`.
