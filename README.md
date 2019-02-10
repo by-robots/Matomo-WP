@@ -1,7 +1,5 @@
-<div style="text-align:center">
-	# Matomo WP
-	Matomo + WordPress, [By Robots](https://by-robots.com)
-</div>
+# Matomo WP
+Matomo + WordPress, [By Robots](https://by-robots.com)
 
 [![Build Status](https://travis-ci.org/by-robots/Matomo-WP.svg?branch=master)](https://travis-ci.org/by-robots/Matomo-WP)
 
