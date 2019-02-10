@@ -10,6 +10,8 @@
  * Version: X.X.X
  * Author: By Robots
  * Author URI: https://by-robots.com
+ * Text Domain: matomo-wp
+ * Domain Path: /languages
  * License: GNU GPLv3
  *
  * @package  By_Robots\Matomo_WP
@@ -19,6 +21,9 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
+
+// Define constants.
+define( 'MWP_PLUGIN_FILE', __FILE__ );
 
 /**
  * A new instance of Matomo_WP

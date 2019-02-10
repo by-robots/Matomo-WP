@@ -33,14 +33,14 @@ class Settings {
 	public function add() {
 		add_settings_section(
 			'matomo_wp_settings',
-			'Configure Matomo WP',
+			__( 'Configure Matomo WP', 'matomo-wp' ),
 			array( $this, 'section_callback' ),
 			'general'
 		);
 
 		add_settings_field(
 			'matomo_wp_url',
-			'Script Domain',
+			__( 'Script Domain', 'matomo-wp' ),
 			array( $this, 'domain_field_callback' ),
 			'general',
 			'matomo_wp_settings'
@@ -53,7 +53,9 @@ class Settings {
 	 * The section callback.
 	 */
 	public function section_callback() {
-		echo '<p>Configure your Matomo tracking settings.</p>';
+		echo '<p>' .
+			esc_html__( 'Configure your Matomo tracking settings.', 'matomo-wp' ) .
+			'</p>';
 	}
 
 	/**
