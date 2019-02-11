@@ -19,6 +19,9 @@ class Matomo_WP {
 
 		// Add the plugin settings.
 		new Settings();
+
+		// Display the tracking code in the header.
+		new Header();
 	}
 
 	/**
