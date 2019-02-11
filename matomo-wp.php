@@ -5,7 +5,7 @@
  * PHP version 5.6+
  *
  * Plugin Name: Matomo WP
- * Plugin URI: https://by-robots.com
+ * Plugin URI: https://github.com/by-robots/Matomo-WP
  * Description: Add Matomo analytics to your WordPress website.
  * Version: X.X.X
  * Author: By Robots

@@ -39,14 +39,23 @@ class Settings {
 		);
 
 		add_settings_field(
-			'matomo_wp_url',
+			'matomo_wp_domain',
 			__( 'Script Domain', 'matomo-wp' ),
 			array( $this, 'domain_field_callback' ),
 			'general',
 			'matomo_wp_settings'
 		);
 
-		register_setting( 'general', 'matomo_wp_url' );
+		add_settings_field(
+			'matomo_wp_site_id',
+			__( 'Site ID', 'matomo-wp' ),
+			array( $this, 'site_id_field_callback' ),
+			'general',
+			'matomo_wp_settings'
+		);
+
+		register_setting( 'general', 'matomo_wp_domain' );
+		register_setting( 'general', 'matomo_wp_site_id' );
 	}
 
 	/**
@@ -64,10 +73,23 @@ class Settings {
 	public function domain_field_callback() {
 		echo '<input
 			type="text"
-			name="matomo_wp_url"
-			id="matomo_wp_url"
-			placeholder="//analytics.by-robots.com"
-			value="' . esc_attr( $this->storage->get( 'matomo_wp_url' ) ) . '"
+			name="matomo_wp_domain"
+			id="matomo_wp_domain"
+			placeholder="//analytics.by-robots.com/"
+			value="' . esc_attr( $this->storage->get( 'matomo_wp_domain' ) ) . '"
+		/>';
+	}
+
+	/**
+	 * Build the HTML for the site ID field.
+	 */
+	public function site_id_field_callback() {
+		echo '<input
+			type="number"
+			name="matomo_wp_site_id"
+			id="matomo_wp_site_id"
+			min="1"
+			value="' . esc_attr( $this->storage->get( 'matomo_wp_site_id' ) ) . '"
 		/>';
 	}
 }

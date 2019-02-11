@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2019-02-10T21:08:08+00:00\n"
+"POT-Creation-Date: 2019-02-11T21:22:33+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.1.0\n"
 "X-Domain: matomo-wp\n"
@@ -19,8 +19,7 @@ msgid "Matomo WP"
 msgstr ""
 
 #. Plugin URI of the plugin
-#. Author URI of the plugin
-msgid "https://by-robots.com"
+msgid "https://github.com/by-robots/Matomo-WP"
 msgstr ""
 
 #. Description of the plugin
@@ -31,6 +30,10 @@ msgstr ""
 msgid "By Robots"
 msgstr ""
 
+#. Author URI of the plugin
+msgid "https://by-robots.com"
+msgstr ""
+
 #: includes/class-settings.php:36
 msgid "Configure Matomo WP"
 msgstr ""
@@ -39,6 +42,10 @@ msgstr ""
 msgid "Script Domain"
 msgstr ""
 
-#: includes/class-settings.php:57
+#: includes/class-settings.php:51
+msgid "Site ID"
+msgstr ""
+
+#: includes/class-settings.php:66
 msgid "Configure your Matomo tracking settings."
 msgstr ""
