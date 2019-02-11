@@ -8,7 +8,7 @@
 namespace By_Robots\Matomo_WP\Tests;
 
 /**
- * Sample test case.
+ * Test the Storage class.
  */
 class StorageTest extends \WP_UnitTestCase {
 	/**

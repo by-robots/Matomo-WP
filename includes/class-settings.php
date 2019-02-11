@@ -8,7 +8,7 @@
 namespace By_Robots\Matomo_WP;
 
 /**
- * Class Matomo_WP
+ * Class Settings
  */
 class Settings {
 	/**
