@@ -5,11 +5,13 @@
  * PHP version 5.6+
  *
  * Plugin Name: Matomo WP
- * Plugin URI: https://by-robots.com
+ * Plugin URI: https://github.com/by-robots/Matomo-WP
  * Description: Add Matomo analytics to your WordPress website.
  * Version: X.X.X
  * Author: By Robots
  * Author URI: https://by-robots.com
+ * Text Domain: matomo-wp
+ * Domain Path: /languages
  * License: GNU GPLv3
  *
  * @package  By_Robots\Matomo_WP
@@ -19,6 +21,9 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
+
+// Define constants.
+define( 'MWP_PLUGIN_FILE', __FILE__ );
 
 /**
  * A new instance of Matomo_WP
