@@ -1,5 +1,5 @@
 # Matomo WP
-Matomo + WordPress, [By Robots](https://by-robots.com)
+Matomo + WordPress, [By Robots](https://by-robots.dev)
 
 [![Build Status](https://travis-ci.org/by-robots/Matomo-WP.svg?branch=master)](https://travis-ci.org/by-robots/Matomo-WP)
 

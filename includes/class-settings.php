@@ -75,7 +75,7 @@ class Settings {
 			type="text"
 			name="matomo_wp_domain"
 			id="matomo_wp_domain"
-			placeholder="//analytics.by-robots.com/"
+			placeholder="//analytics.by-robots.dev/"
 			value="' . esc_attr( $this->storage->get( 'matomo_wp_domain' ) ) . '"
 		/>';
 	}

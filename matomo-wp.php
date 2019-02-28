@@ -9,7 +9,7 @@
  * Description: Add Matomo analytics to your WordPress website.
  * Version: X.X.X
  * Author: By Robots
- * Author URI: https://by-robots.com
+ * Author URI: https://by-robots.dev
  * Text Domain: matomo-wp
  * Domain Path: /languages
  * License: GNU GPLv3
